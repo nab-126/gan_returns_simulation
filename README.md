@@ -6,8 +6,11 @@ Financial time series are complex by nature; the scarcity of historical financia
 The W-GAN was built in Python using the Pytorch framework. 
 
 `generator.py` contains the Generator Class.
+
 `discriminator.py` contains the Discriminator Class.
+
 `data.py` contains the dataloader.
+
 `main.py` contains the training loop and the basic graph for the model.
 
 Once you have implemented the model, you can start training by running `main.py` with the following command:
@@ -15,7 +18,9 @@ Once you have implemented the model, you can start training by running `main.py`
 
 ### Setting up your environment
 `conda create --name gan_returns python==3.6`
+
 `conda install --force-reinstall -y -q --name gan_returns -c conda-forge --file requirements.txt`
+
 `conda activate gan_returns`
 
 To deactivate the environment you are in run:
