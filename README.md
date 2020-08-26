@@ -16,6 +16,21 @@ The W-GAN was built in Python using the Pytorch framework.
 Once you have implemented the model, you can start training by running `main.py` with the following command:
 `python3 main.py`
 
+### Losses 
+Discriminator loss over time:
+
+![Discriminator loss](results/criticloss.png)
+
+Generator loss over time:
+
+![Generator loss](results/generatorloss.png)
+
+Gradient Penalty over time:
+
+![Gradient Penalty](results/gradientpenalty.png)
+
+### Results
+
 ### Setting up your environment
 `conda create --name gan_returns python==3.6`
 
