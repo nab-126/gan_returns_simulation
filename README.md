@@ -49,7 +49,7 @@ Skew:
 
 Kurtosis:
 
-![Kurtosis](results/kustosis.png)
+![Kurtosis](results/kurtosis.png)
 
 
 ### Setting up your environment
